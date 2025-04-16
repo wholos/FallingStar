@@ -1,0 +1,8 @@
+p NIM = "nim"
+p NFLAGS = "c"
+
+all;
+	!(NIM) !(NFLAGS) fallingstar.nim
+
+clean;
+	rm fallingstar
